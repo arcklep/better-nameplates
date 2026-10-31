@@ -1,11 +1,11 @@
-# gw2plates
+# Better Nameplates
 
 **Clean, readable enemy nameplates for Guild Wars 2.** A [Raidcore Nexus](https://raidcore.gg/Nexus) addon.
 
-gw2plates replaces the game's own enemy name and health labels with compact plates: a name, a health bar
+Better Nameplates replaces the game's own enemy name and health labels with compact plates: a name, a health bar
 in the enemy's rank colour, and nothing you don't need until you need it.
 
-gw2plates reads game memory to find enemies, and hides the game's own enemy labels through the game's own
+Better Nameplates reads game memory to find enemies, and hides the game's own enemy labels through the game's own
 interface code. It does not change game state, send input or automate anything. See [Addon policy](#addon-policy).
 
 ![Grawl camp: names on undamaged enemies, the target's plate highlighted](screenshots/plates.webp)
@@ -31,7 +31,7 @@ Plates are drawn about as far as the game draws its own enemy labels.
 
 ## Settings
 
-Click the gw2plates icon in the Nexus quick-access bar (top left of the screen) to open the settings. The
+Click the Better Nameplates icon in the Nexus quick-access bar (top left of the screen) to open the settings. The
 **Style** section has a live preview showing undamaged, hovered, damaged and targeted plates, so you can see
 each change as you make it.
 
@@ -45,24 +45,27 @@ You can change:
 
 ![Settings window with the style preview](screenshots/settings.png)
 
-To use your own font, put `font.ttf` (or `font.otf`) in `addons/gw2plates/` and reload the addon.
+To use your own font, put `font.ttf` (or `font.otf`) in `addons/BetterNameplates/` and reload the addon.
 
 ## Installation
 
 1. Install [Raidcore Nexus](https://raidcore.gg/Nexus).
-2. Download `gw2plates.dll` from the [latest release](https://github.com/arcklep/gw2plates/releases/latest)
+2. Download `BetterNameplates.dll` from the [latest release](https://github.com/arcklep/better-nameplates/releases/latest)
    and put it in `Guild Wars 2/addons/`.
-3. Start the game and load gw2plates from the Nexus addon list.
+3. Start the game and load Better Nameplates from the Nexus addon list.
 
 Nexus checks this repository for new releases and offers updates on its own.
 
-gw2plates shares its internals with Joycat UI, so load only one of the two.
+Better Nameplates was called gw2plates in version 1.0.0. If you have that installed, delete `gw2plates.dll`
+before adding `BetterNameplates.dll`; your settings carry over.
+
+Better Nameplates shares its internals with Joycat UI, so load only one of the two.
 
 ## Addon policy
 
 ArenaNet's third-party program policy allows addons that do not give a gameplay advantage over other players.
 
-- gw2plates shows only information the game already shows you: names, health, rank and break bars.
+- Better Nameplates shows only information the game already shows you: names, health, rank and break bars.
 - It reads game memory to find that information. The one thing it changes is the visibility of the game's
   own enemy labels, which it hides through the game's own interface function, the same way the game hides
   them itself.
@@ -71,5 +74,5 @@ ArenaNet's third-party program policy allows addons that do not give a gameplay 
 
 ## License
 
-gw2plates is free to use but closed source since it performs memory reading. See [LICENSE](LICENSE). Third-party software it includes is
+Better Nameplates is free to use but closed source since it performs memory reading. See [LICENSE](LICENSE). Third-party software it includes is
 listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).

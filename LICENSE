@@ -1,52 +1,52 @@
-gw2plates - Proprietary License
+Better Nameplates - Proprietary License
 Copyright (c) 2026 joycat. All rights reserved.
 
-gw2plates is a closed-source project. This repository publishes the addon's
+Better Nameplates is a closed-source project. This repository publishes the addon's
 documentation, screenshots and release builds. The source code is not public.
 
 
 Why the source is closed
 ------------------------
-gw2plates finds enemies by reading the Guild Wars 2 client's memory, which
+Better Nameplates finds enemies by reading the Guild Wars 2 client's memory, which
 relies on reverse engineering of the game client. Publishing the source would
 also publish those details, so the code is kept private.
 
 
 Permitted use
 -------------
-You may download and use gw2plates free of charge, including while streaming,
+You may download and use Better Nameplates free of charge, including while streaming,
 recording or making videos, on monetised channels as well as personal ones.
 You may quote or reuse this repository's documentation and screenshots when
-describing, reviewing or showcasing gw2plates, with attribution.
+describing, reviewing or showcasing Better Nameplates, with attribution.
 
 
 Distribution via Raidcore / Nexus
 ---------------------------------
 The author grants Raidcore and the Nexus addon library (raidcore.gg) permission
-to list, host and distribute unmodified gw2plates release builds.
+to list, host and distribute unmodified Better Nameplates release builds.
 
 
 Restrictions
 ------------
 Without the author's written permission you may not:
 
-  - sell gw2plates, charge for access to it, or bundle it into a paid product
+  - sell Better Nameplates, charge for access to it, or bundle it into a paid product
     or service;
   - redistribute modified builds, or unmodified builds other than through this
     repository's releases and the Nexus addon library;
-  - decompile, disassemble or reverse engineer gw2plates, except where the law
+  - decompile, disassemble or reverse engineer Better Nameplates, except where the law
     allows it regardless of this license.
 
 
 No warranty
 -----------
-gw2plates is provided "as is", without warranty of any kind. The author is not
+Better Nameplates is provided "as is", without warranty of any kind. The author is not
 liable for any damage or loss arising from its use. Guild Wars 2 is a trademark
-of ArenaNet, LLC. gw2plates is not affiliated with or endorsed by ArenaNet or
+of ArenaNet, LLC. Better Nameplates is not affiliated with or endorsed by ArenaNet or
 NCSOFT.
 
 
 Third-party software
 --------------------
-gw2plates includes open-source software under its own licenses; see
+Better Nameplates includes open-source software under its own licenses; see
 THIRD-PARTY-NOTICES.txt.
