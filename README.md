@@ -23,7 +23,7 @@ interface code. It does not change game state, send input or automate anything. 
   camera.
 - **Neutral creatures stay quiet.** A neutral enemy keeps the game's own label until something hurts it.
 
-Plates are drawn up to 100 m away, about as far as the game draws its own enemy labels.
+Plates are drawn about as far as the game draws its own enemy labels.
 
 ## Settings
 
