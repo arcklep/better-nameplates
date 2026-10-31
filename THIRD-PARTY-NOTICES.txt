@@ -1,7 +1,7 @@
-gw2plates - third-party notices
-===============================
+Better Nameplates - third-party notices
+=======================================
 
-gw2plates includes the following open-source software. Their licenses require these notices to
+Better Nameplates includes the following open-source software. Their licenses require these notices to
 accompany the binary.
 
 
