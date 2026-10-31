@@ -20,7 +20,7 @@ interface code. It does not change game state, send input or automate anything. 
   is the only plate that shows a health percentage and a break bar.
 - **Damage you can see.** Lost health turns white and shrinks away, so big hits read clearly.
 - **Plates stay where they belong.** They hide behind walls and terrain, behind open game windows and pop-ups,
-  and for enemies that are not targetable yet (spawning, rolling boulders and similar).
+  and for enemies that are not targetable yet (still spawning and similar).
 - **Your target is never lost.** Its plate stays on screen even when the enemy is off screen or behind the
   camera.
 - **Neutral creatures stay quiet.** A neutral enemy keeps the game's own label until something hurts it.
