@@ -8,6 +8,8 @@ in the enemy's rank colour, and nothing you don't need until you need it.
 gw2plates reads game memory to find enemies, and hides the game's own enemy labels through the game's own
 interface code. It does not change game state, send input or automate anything. See [Addon policy](#addon-policy).
 
+![Grawl camp: names on undamaged enemies, the target's plate highlighted](screenshots/plates.webp)
+
 ## How it behaves
 
 - **Names until a fight starts.** An enemy at full health shows only its name. The bar appears as soon as it
@@ -22,6 +24,8 @@ interface code. It does not change game state, send input or automate anything. 
 - **Your target is never lost.** Its plate stays on screen even when the enemy is off screen or behind the
   camera.
 - **Neutral creatures stay quiet.** A neutral enemy keeps the game's own label until something hurts it.
+
+![In a fight: damaged enemies get their bar, the target shows its health percentage](screenshots/combat.webp)
 
 Plates are drawn about as far as the game draws its own enemy labels.
 
@@ -38,6 +42,8 @@ You can change:
 - gradient bar, target highlight, damage drain speed and the target's break bar
 - the name colour: white, a colour of your choice, or the bar's colour
 - every rank and bar colour
+
+![Settings window with the style preview](screenshots/settings.png)
 
 To use your own font, put `font.ttf` (or `font.otf`) in `addons/gw2plates/` and reload the addon.
 
