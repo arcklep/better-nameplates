@@ -69,13 +69,7 @@ ArenaNet's third-party program policy allows addons that do not give a gameplay 
 - It never sends input to the game, never acts for you and never automates anything.
 - It is switched off completely in structured PvP and World vs. World.
 
-## Bugs and feedback
-
-Open an [issue](https://github.com/arcklep/gw2plates/issues). After a game update, plates can stop working
-until gw2plates is updated. The addon disables itself rather than guessing when it does not recognise the
-game.
-
 ## License
 
-gw2plates is free to use but closed source. See [LICENSE](LICENSE). Third-party software it includes is
+gw2plates is free to use but closed source since it performs memory reading. See [LICENSE](LICENSE). Third-party software it includes is
 listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
