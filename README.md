@@ -43,7 +43,7 @@ You can change:
 - the name colour: white, a colour of your choice, or the bar's colour
 - every rank and bar colour
 
-![Settings window with the style preview](screenshots/settings.png)
+![Settings window with the style preview](screenshots/settings.gif)
 
 To use your own font, put `font.ttf` (or `font.otf`) in `addons/BetterNameplates/` and reload the addon.
 
