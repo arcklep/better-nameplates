@@ -32,8 +32,8 @@ Plates are drawn about as far as the game draws its own enemy labels.
 ## Settings
 
 Click the Better Nameplates icon in the Nexus quick-access bar (top left of the screen) to open the settings. The
-**Style** section has a live preview showing undamaged, hovered, damaged and targeted plates, so you can see
-each change as you make it.
+options are grouped in a sidebar; the **Nameplates** page has a live preview showing undamaged, hovered, damaged
+and targeted plates, so you can see each change as you make it.
 
 You can change:
 
