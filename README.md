@@ -4,6 +4,15 @@
 
 ![Better Nameplates: clean, better visibility, customizable](screenshots/banner.png)
 
+## Installation
+
+1. Install [Raidcore Nexus](https://raidcore.gg/Nexus).
+2. Grab `BetterNameplates.dll` from the [latest release](https://github.com/arcklep/better-nameplates/releases/latest)
+   and drop it in `Guild Wars 2/addons/`.
+3. Start the game and load Better Nameplates from the Nexus addon list.
+
+Nexus picks up new releases on its own. If it updates while you're playing, restart the game.
+
 ## Features
 
 **Enemies**
@@ -30,15 +39,6 @@
 ![In a fight: damaged enemies get their bar, the target shows its health percentage](screenshots/combat.webp)
 
 Settings are under the Better Nameplates icon in the Nexus quick-access bar.
-
-## Installation
-
-1. Install [Raidcore Nexus](https://raidcore.gg/Nexus).
-2. Grab `BetterNameplates.dll` from the [latest release](https://github.com/arcklep/better-nameplates/releases/latest)
-   and drop it in `Guild Wars 2/addons/`.
-3. Start the game and load Better Nameplates from the Nexus addon list.
-
-Nexus picks up new releases on its own. If it updates while you're playing, restart the game.
 
 ## Addon policy
 
