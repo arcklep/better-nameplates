@@ -1,51 +1,54 @@
 # Better Nameplates
 
-**Clean, readable enemy nameplates for Guild Wars 2.** A [Raidcore Nexus](https://raidcore.gg/Nexus) addon.
+**Clean, readable nameplates for Guild Wars 2.** A [Raidcore Nexus](https://raidcore.gg/Nexus) addon.
 
 ![Better Nameplates: clean, better visibility, customizable](screenshots/banner.png)
 
 ## Features
 
-- **Names until a fight starts.** Undamaged enemies show only their name; the bar appears once they take damage,
-  when you hover them or target them.
-- **Rank at a glance.** Bars are coloured by rank: normal, veteran, elite, champion and legendary.
-- **Your target stands out.** Its plate grows, shows health percentage and the break bar, and stays on screen.
-- **Click a plate to target** its enemy.
-- **Keep plates apart.** Overlapping plates push each other upward (optional).
-- **Nameplate SCT.** Your damage pops up from the enemy's plate, with its own font and style options.
-- **Target markers.** Your Personal and Call Target markers show on the plates.
-- **Plates stay where they belong.** Hidden behind walls, open game windows and conversation windows.
-- **NVIDIA Smooth Motion.** With ArcDPS loaded, plates are drawn in every frame and stay locked to the mobs.
-- **Any language.** Pick the addon font, the game's font or your own `font.ttf`/`font.otf` in
-  `addons/BetterNameplates/`.
+**Enemies**
+- Just the name until a fight starts, the bar shows up once they take damage or you hover/target them
+- Bars coloured by rank (normal, veteran, elite, champion, legendary)
+- Your target's plate grows and shows health % and the break bar
+- Click a plate to target it
+- Nameplate SCT: your damage pops up from the enemy's plate
+
+**Friendly**
+- Plates for players, NPCs, townsfolk, vendors and pets, shown wherever the game shows their names
+- Titles, guild tags and mastery level
+- Party, squad and subgroup colours, with their own plate settings if you want them
+- Plate colours follow the game's own name colours
+
+**Everywhere**
+- Target markers, commander tags and squad markers (works with Commander Tag Accessibility)
+- Drag the bar, name and markers wherever you like on the Plate layout pages
+- Overlapping plates can push each other apart
+- Plates hide behind walls and game windows
+- Works with NVIDIA Smooth Motion: with ArcDPS or RealTime API loaded, plates stay locked to what they belong to
+- Any language: addon font, the game's font, or your own `font.ttf`/`font.otf` in `addons/BetterNameplates/`
 
 ![In a fight: damaged enemies get their bar, the target shows its health percentage](screenshots/combat.webp)
 
-## Settings
-
-Click the Better Nameplates icon in the Nexus quick-access bar. Pages for nameplates, fonts, target markers and SCT,
-with a live preview. Change plate size, bar and text layout, colours per rank, which plates show and much more.
-
-![Settings window with the style preview](screenshots/settings.gif)
+Settings are under the Better Nameplates icon in the Nexus quick-access bar.
 
 ## Installation
 
 1. Install [Raidcore Nexus](https://raidcore.gg/Nexus).
-2. Download `BetterNameplates.dll` from the [latest release](https://github.com/arcklep/better-nameplates/releases/latest)
-   and put it in `Guild Wars 2/addons/`.
+2. Grab `BetterNameplates.dll` from the [latest release](https://github.com/arcklep/better-nameplates/releases/latest)
+   and drop it in `Guild Wars 2/addons/`.
 3. Start the game and load Better Nameplates from the Nexus addon list.
 
-Nexus offers new releases on its own. After an update while the game is running, restart the game.
+Nexus picks up new releases on its own. If it updates while you're playing, restart the game.
 
 ## Addon policy
 
-ArenaNet's third-party program policy allows addons that do not give a gameplay advantage over other players.
+ArenaNet allows addons that don't give a gameplay advantage, and this one sticks to that:
 
-- Better Nameplates shows only what the game already shows you: names, health, rank and break bars.
-- It reads game memory to find that information and hides the game's own enemy labels through the game's own
-  interface function. Clicking a plate targets that enemy, like clicking the enemy itself.
-- It never acts on its own and never automates anything.
-- It is switched off in structured PvP and World vs. World.
+- It only shows what the game already shows you: names, health, ranks, titles and markers.
+- It reads game memory to find that info and hides the game's own name labels through the game's own function.
+  Clicking a plate targets it, same as clicking the character.
+- It never acts on its own or automates anything.
+- It's switched off in structured PvP and World vs. World.
 
 ## License
 
